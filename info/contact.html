@@ -38,7 +38,6 @@
 
 </style>
 
-<script language="javascript" src="../email.js"></script>
 
 <title>Noof Designs - Contact</title>
 </head>
@@ -48,8 +47,13 @@
 
 
 <div id="tagline">
-    <p><script>mail("sam","noofdesigns",0,"Noof Designs Quote Request")</script></p>
-</div>
+    <p><script language="JavaScript">
+        var username = "sam";
+        var hostname = "noofdesigns.com";
+        var linktext = username + "@" + hostname ;
+        document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+        </script></p>
+    </div>
 
 
 
