@@ -118,6 +118,23 @@ article {
     background-color: black;
 }
 
+#backbutton a {
+    position: fixed;
+    left: 40px;
+    top: 50%;
+}
+
+#backbutton a span {
+    display: none;
+    margin-left: -70px;
+}
+
+#backbutton a:hover span {
+    display: inline;
+    position: absolute;
+    background: none;
+}
+
 
 h1 {
   font-family: 'futura', sans-serif;
